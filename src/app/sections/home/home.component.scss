@@ -1,0 +1,14 @@
+
+#home {
+    position: relative;
+    height: calc(100vh - 5.5rem);
+    padding-top: 5.5em;
+    margin: 0 auto;
+    max-width: 80em;
+    color: white;
+}
+
+@media (max-width: 48em) {
+    #home {
+    padding-top: 4.125em;
+}}

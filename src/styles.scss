@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --clr-primary: linear-gradient(293deg, rgba(25,80,92,1) 0%, rgba(5,0,36,1) 100%);
+}
+
+body, html {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+   
+    /* ff 3.6+ */
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 85% 0%, rgba(15, 102, 113, 1) 0%, rgba(17, 16, 66, 1) 36%, rgba(74, 18, 83, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 85% 0%, rgba(15, 102, 113, 1) 0%, rgba(17, 16, 66, 1) 36%, rgba(74, 18, 83, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 85% 0%, rgba(15, 102, 113, 1) 0%, rgba(17, 16, 66, 1) 36%, rgba(74, 18, 83, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 85% 0%, rgba(15, 102, 113, 1) 0%, rgba(17, 16, 66, 1) 36%, rgba(74, 18, 83, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 85% 0%, rgba(15, 102, 113, 1) 0%, rgba(17, 16, 66, 1) 36%, rgba(74, 18, 83, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+@media (max-width: 48em) {
+    body, html {
+        scroll-padding-top: 4.125rem;
+    }
+}
